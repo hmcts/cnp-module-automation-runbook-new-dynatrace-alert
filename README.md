@@ -1,6 +1,6 @@
 ## Dynatrace Module
 
-This Module will create a PowerShell runbook which creates a Dynatrace Alert via the Dynatrace REST API.
+This Module will create a PowerShell runbook which creates a Dynatrace Alert via the Dynatrace API.
 
 The runbook can either be created in an existing Automation Account OR created inside a new Automation Account (default).
 
