@@ -1,1 +1,0 @@
-# sds-module-automation-runbook-new-dynatrace-alert
