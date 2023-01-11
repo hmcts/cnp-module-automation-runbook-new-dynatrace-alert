@@ -19,9 +19,13 @@ variable "tags" {
 }
 
 variable "automation_credentials" {
-  type        = list(map(string))
-  description = "list of maps with credentials"
-  default     = []
+  type = list(object({
+    name        = string
+    username    = string
+    password    = string
+    description = string
+  }))
+  default = []
 }
 
 variable "log_verbose" {
