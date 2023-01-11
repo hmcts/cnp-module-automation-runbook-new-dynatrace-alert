@@ -4,6 +4,8 @@ This Module will create a PowerShell runbook which creates a Dynatrace Alert via
 
 The runbook can either be created in an existing Automation Account OR created inside a new Automation Account (default).
 
+Documenation on the Dynatrace API can be found [here](https://www.dynatrace.com/support/help/dynatrace-api).
+
 ```terraform
 module "dynatrace_alert" {
   source = "git::https://github.com/hmcts/sds-module-automation-runbook-new-dynatrace-alert"

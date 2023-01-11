@@ -34,6 +34,7 @@ variable "automation_credentials" {
   type        = list(map(string))
   description = "list of maps with credentials"
   default     = []
+  sensitive   = true
 }
 
 variable "log_verbose" {
