@@ -13,18 +13,6 @@ variable "location" {
   description = "azure location"
 }
 
-variable "use_existing_automation_account" {
-  type        = bool
-  default     = false
-  description = "if true, use existing automation account, if false, create new automation account"
-}
-
-variable "sku" {
-  type        = string
-  default     = "Basic"
-  description = "sku of automation account"
-}
-
 variable "tags" {
   type        = map(string)
   description = "tags"
