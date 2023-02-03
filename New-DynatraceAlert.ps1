@@ -43,7 +43,7 @@ $requestHeaders.Add("Content-Type", "application/json")
 $requestBody = [PSCustomObject]@{
                     "eventType"      = "$eventType"
                     "title"          = "$alertName"
-                    "entitySelector" = "type($entityType),entityName.startsWith($entityName)"
+                    "entitySelector" = "type($entityType),entityName.equals($entityName)"
                     "properties"     = @{
                         "Description" = "$alertDescription"
                     }
